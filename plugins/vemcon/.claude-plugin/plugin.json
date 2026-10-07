@@ -1,13 +1,16 @@
 {
   "name": "vemcon",
-  "version": "1.0.1",
+  "displayName": "VemCon",
+  "version": "1.0.2",
   "description": "Cartas de consórcio contempladas da VemCon: busca no catálogo, detalhes, simulação de custo, cartas monitoradas e alertas.",
   "author": {
     "name": "VemCon",
     "email": "contato@vemcon.com.br"
   },
   "homepage": "https://vemcon.com.br",
+  "icon": "./assets/icon.png",
   "privacyPolicyUrl": "https://vemcon.com.br/termos?secao=politica-de-privacidade",
+  "termsOfServiceUrl": "https://vemcon.com.br/termos",
   "repository": "https://github.com/clustermarketing/vemcon-plugin",
   "license": "MIT",
   "keywords": [
