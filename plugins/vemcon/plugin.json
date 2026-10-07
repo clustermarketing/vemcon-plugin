@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vemcon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cartas de consórcio contempladas da VemCon: busca no catálogo, detalhes, simulação de custo, cartas monitoradas e alertas.",
   "author": {
     "name": "VemCon",
