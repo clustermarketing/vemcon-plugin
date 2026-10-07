@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vemcon",
+  "version": "1.0.0",
+  "description": "Cartas de consórcio contempladas da VemCon: busca no catálogo, detalhes, simulação de custo, cartas monitoradas e alertas.",
+  "author": {
+    "name": "VemCon",
+    "email": "contato@vemcon.com.br"
+  },
+  "homepage": "https://vemcon.com.br",
+  "repository": "https://github.com/clustermarketing/vemcon-plugin",
+  "license": "MIT",
+  "keywords": [
+    "consorcio",
+    "carta-contemplada",
+    "imovel",
+    "automovel",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "VemCon",
+        "shortDescription": "Cartas contempladas por conversa",
+        "longDescription": "Consulte o catálogo de cartas de consórcio contempladas da VemCon. Busque por categoria, administradora, crédito e parcela, veja os detalhes de cada carta e simule o custo das parcelas restantes. Ao conectar sua conta, consulte também suas cartas monitoradas e seus alertas.",
+        "developerName": "VemCon",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://vemcon.com.br",
+        "privacyPolicyURL": "https://vemcon.com.br/termos?secao=politica-de-privacidade",
+        "termsOfServiceURL": "https://vemcon.com.br/termos",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "brandColor": "#01FF88"
+      }
+    }
+  }
+}

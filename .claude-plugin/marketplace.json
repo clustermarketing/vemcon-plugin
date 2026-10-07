@@ -1,0 +1,12 @@
+{
+  "name": "vemcon",
+  "description": "Plugins da VemCon",
+  "owner": { "name": "VemCon", "email": "contato@vemcon.com.br" },
+  "plugins": [
+    {
+      "name": "vemcon",
+      "source": "./plugins/vemcon",
+      "description": "Cartas de consórcio contempladas da VemCon por conversa"
+    }
+  ]
+}

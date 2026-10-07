@@ -1,0 +1,19 @@
+{
+  "name": "vemcon",
+  "version": "1.0.0",
+  "description": "Cartas de consórcio contempladas da VemCon: busca no catálogo, detalhes, simulação de custo, cartas monitoradas e alertas.",
+  "author": {
+    "name": "VemCon",
+    "email": "contato@vemcon.com.br"
+  },
+  "homepage": "https://vemcon.com.br",
+  "repository": "https://github.com/clustermarketing/vemcon-plugin",
+  "license": "MIT",
+  "keywords": [
+    "consorcio",
+    "carta-contemplada",
+    "imovel",
+    "automovel",
+    "mcp"
+  ]
+}
