@@ -14,7 +14,9 @@ usa e como instalar.
 
 As tools vêm do servidor MCP da VemCon (`supabase/functions/mcp` no repositório
 `vemcon`). Ao renomear uma tool lá, atualize a skill aqui, suba `version` nos
-dois `plugin.json` e gere o zip de novo:
+dois `plugin.json`.
+
+O zip para envio manual não é versionado; gere quando precisar:
 
 ```bash
 (cd plugins && rm -f vemcon.zip && zip -r vemcon.zip vemcon)
